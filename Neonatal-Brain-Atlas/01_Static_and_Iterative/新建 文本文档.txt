@@ -1,0 +1,3 @@
+# Stage 1 & 2 Static and Iterative Templates
+- [cite_start]Static Templates Single-subject reference (Biased). [cite 46]
+- [cite_start]Iterative Templates Groupwise registration (e.g., ANTs SyN, ABSORB) to reduce bias. [cite 65, 66]

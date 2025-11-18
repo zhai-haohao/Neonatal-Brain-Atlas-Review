@@ -1,0 +1,3 @@
+# Stage 5: Deep Learning-Based
+- [cite_start]**Registration-based**: VoxelMorph, Atlas-GAN. [cite: 227, 228]
+- [cite_start]**Template-centric**: CINeMA (Implicit Neural Representations). [cite: 244]
