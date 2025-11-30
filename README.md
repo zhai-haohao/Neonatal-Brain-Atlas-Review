@@ -19,4 +19,4 @@ We have organized the resources into four categories corresponding to the evolut
 
 ### [4. Deep Learning-Based Templates](./04_Deep_Learning)
 > The frontier of atlas construction, featuring generative models and implicit neural representations.
-> * **Keywords:** *VoxelMorph, Atlas-GAN, CINEMA, Resolution-Independence.*
+> * **Keywords:** *VoxelMorph, Atlas-GAN, CINEMA
