@@ -41,4 +41,4 @@ $$T(t) = \frac{\sum_{i=1}^{N} K_h(t - t_i) \cdot \phi_i \circ I_i}{\sum_{i=1}^{N
 
 ## 💡 Practical Notes
 * **For Surface Atlases:** The **dHCP** project uses the MSM (Multimodal Surface Matching) framework, which is available as part of the **FSL** software library.
-* **For Volumetric 4D Atlases:** Most current research has moved to Deep Learning (Stage 5) to approximate the Kernel Regression process more efficiently (e.g., using Conditional GANs or INRs).
+* **For Volumetric 4D Atlases:** Most current research has moved to Deep Learning (Stage 5) to approximate the Kernel Regression process more efficiently.
