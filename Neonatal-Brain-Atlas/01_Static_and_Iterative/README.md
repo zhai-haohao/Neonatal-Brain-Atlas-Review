@@ -4,24 +4,25 @@
 
 ## 📖 Overview
 This section covers the foundational evolution of neonatal atlas construction:
-1.  [cite_start]**Static Templates (Phase 1):** Early approaches that aligned population data to a single subject using linear (rigid/affine) transformations[cite: 36, 38].
-    * [cite_start]*Limitation:* Highly biased towards the chosen reference subject[cite: 48].
-2.  [cite_start]**Iterative Templates (Phase 2):** The transition to groupwise, non-linear registration (e.g., ANTs SyN) to create an "average" brain shape[cite: 53, 64].
-    * [cite_start]*Advantage:* Removes reference bias and progressively sharpens anatomical details through iterative averaging loops[cite: 90, 91].
+1. **Static Templates (Phase 1):** Early approaches that aligned population data to a single subject using linear (rigid/affine) transformations (Kazemi et al., 2007; Oishi et al., 2011).
+   * *Limitation:* Highly biased towards the chosen reference subject (Gholipour et al., 2017).
+
+2. **Iterative Templates (Phase 2):** The transition to groupwise, non-linear registration (e.g., ANTs SyN) to create an "average" brain shape (Avants et al., 2008; Schuh et al., 2018).
+   * *Advantage:* Removes reference bias and progressively sharpens anatomical details through iterative averaging loops (Jia et al., 2010).
 
 ## 🛠️ Key Methods & Tools
 
 | Category | Method | Year | Core Algorithm | Availability |
 | :--- | :--- | :--- | :--- | :--- |
-| **Static** | **Single-Subject** | 2007 | Rigid/Affine Registration | N/A (Concept only) |
-| **Iterative** | **ABSORB** | 2010 | Self-organized Registration & Bundling | [Paper](https://pubmed.ncbi.nlm.nih.gov/20139015/) |
+| **Static** | **Single-Subject** | 2007 | Rigid/Affine Registration | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S1053811998903950)  |
+| **Iterative** | **ABSORB** | 2010 | Self-organized Registration & Bundling | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S1053811910002806) |
 | **Iterative** | **ANTs (SyN)** | 2013 | Symmetric Diffeomorphic (SyN) | [GitHub](https://github.com/ANTsX/ANTs) |
 
-> [cite_start]**Note:** While older methods like ABSORB [cite: 67] [cite_start]pioneered the field, **ANTs (Advanced Normalization Tools)** [cite: 69] has become the standard implementation for iterative atlas construction due to its open-source availability and robust pipeline.
+> **Note:** While older methods like ABSORB pioneered the field, **ANTs (Advanced Normalization Tools)** has become the standard implementation for iterative atlas construction due to its open-source availability and robust pipeline.
 
 ## 💻 Practical Usage: How to Build an Iterative Atlas
 
-[cite_start]The review paper highlights the **ANTs** pipeline (`antsMultivariateTemplateConstruction2.sh`) as a representative workflow for this phase[cite: 74].
+The review paper highlights the **ANTs** pipeline (`antsMultivariateTemplateConstruction2.sh`) as a representative workflow for this phase.
 
 If you have installed ANTs, you can reproduce the "Iterative Loop" (Figure 1 in the paper) using the following command:
 
@@ -39,4 +40,5 @@ antsMultivariateTemplateConstruction2.sh \
   -k 1 \                    # Number of modalities (1 = T1 or T2 only)
   -w 1 \                    # Weight for the modality
   -r 1 \                    # Perform initial rigid alignment? (1=Yes)
+
   Subject_*.nii.gz          # Input images (wildcard)
