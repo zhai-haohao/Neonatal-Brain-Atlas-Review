@@ -1,3 +1,0 @@
-# Stage 3: Spatiotemporal Atlases (4D)
-- [cite_start]**Discrete**: Separate templates for specific ages (e.g., dHCP legacy). [cite: 90, 94]
-- [cite_start]**Continuous**: Kernel regression models for smooth trajectory (e.g., CRL Fetal Atlas). [cite: 129, 131]
