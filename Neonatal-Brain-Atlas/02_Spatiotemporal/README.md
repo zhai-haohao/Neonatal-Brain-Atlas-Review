@@ -15,9 +15,9 @@ Since many methods in this era predate the standard use of GitHub, we link to th
 | Method / Algorithm | Year | Author | Core Technique | Links |
 | :--- | :--- | :--- | :--- | :--- |
 | **Discrete Stage-wise** | 2016 | Blesa et al. | Independent averaging per age bin. | [Paper](https://www.frontiersin.org/articles/10.3389/fnins.2016.00220/full) \| [Toolbox](https://www.nitrc.org/projects/unc_brain_atlas/) |
-| **Kernel Regression (4D)** | 2017 | Gholipour et al. | **Nadaraya-Watson Kernel Regression.** Weights contributions based on temporal distance. | [Paper](https://www.nature.com/articles/srep20734) \| [Lab Page](http://crl.med.harvard.edu/research/fetal_brain_atlas/) |
-| **Diffeomorphic Demons** | 2015 | Li et al. | Spherical Demons for surface registration across time. | [Paper](https://pubmed.ncbi.nlm.nih.gov/25863529/) \| [Toolbox](https://www.nitrc.org/projects/sphericaldemons) |
-| **MSM (Surface)** | 2018 | Bozek et al. (dHCP) | Multimodal Surface Matching for cortical folding alignment. | [Paper](https://pubmed.ncbi.nlm.nih.gov/29928965/) \| [FSL Tool](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/MSM) |
+| **Kernel Regression (4D)** | 2022 | Gholipour et al. | **Nadaraya-Watson Kernel Regression.** Weights contributions based on temporal distance. | [Paper](https://www.jneurosci.org/content/42/50/9435.abstract) \| [Lab Page](http://crl.med.harvard.edu/research/fetal_brain_atlas/) |
+| **Diffeomorphic Demons** | 2015 | Li et al. | Spherical Demons for surface registration across time. | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S1361841515000559/) \|
+| **MSM (Surface)** | 2018 | Bozek et al. (dHCP) | Multimodal Surface Matching for cortical folding alignment. | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S1053811917308649/) \| [FSL Tool](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/MSM) |
 ## 🧮 Core Algorithm: Kernel Regression
 *As source code for classic Kernel Regression is often custom MATLAB scripts, we provide the core mathematical formulation used in these atlases.*
 
