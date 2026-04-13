@@ -16,3 +16,19 @@ We have organized the resources into four categories corresponding to the evolut
 ### [4. Deep Learning-Based Templates](Neonatal-Brain-Atlas/04_Deep_Learning)
 > The frontier of atlas construction, featuring generative models and implicit neural representations.
 > * **Keywords:** *VoxelMorph, Atlas-GAN, CINEMA*
+
+# Brain Atlas Resources
+
+A curated collection of brain atlases for neuroimaging research, covering spatiotemporal, probabilistic, and multimodal atlas resources for fetal and infant brain development.
+
+## Atlas Overview
+
+| Category | Atlas Name | Age Range | Modalities | Participants | Availability |
+|:---------|:-----------|:----------|:-----------|:------------:|:-------------|
+| **Spatiotemporal** | UNC 4D Infant Cortical Surface Atlas | 1–72 months | Surface | 20 | [Link](https://www.nitrc.org/projects/infantsurfatlas/) |
+| **Spatiotemporal** | M-CRIB Atlas | 40–43 PMW | T2-w | 10 | [Link](https://github.com/DevelopmentalImagingMCRI/M-CRIB_atlas) |
+| **Spatiotemporal** | Spatiotemporal Atlas of the Fetal Brain | 20.57–27.86 GW | T2-w | 40 | [Link](http://depts.washington.edu/bicg/research/fba.php) |
+| **Spatiotemporal** | Dynamic 4D Probabilistic Atlas of the Developing Brain | 29–44 PMW | T2-w | 40 | [Link](http://brain-development.org/brain-atlases/neonatal-brain-atlas/) |
+| **Probabilistic** | Multi-channel 4D Probabilistic Atlas of the Developing Fetal Brain | 21.7–38.7 PMW | T2-w | 80 | [Link](http://brain-development.org/brain-atlases/a-multi-channel-4d-probabilistic-atlas-of-the-developing-fetal-brain/) |
+| **Multimodal** | JHU Neonate Atlas | 2 days after birth | T1-w, T2-w, DTI | 1 | [Link](http://cmrm.med.jhmi.edu/cmrm/Data_neonate_atlas/atlas_neonate.htm) |
+| **Multimodal** | ENA33 | 37–41 PMW | T1w, T2w, DTI | 33 | [Link](http://brainsquare.org/) / [Link](http://www.brainsimagebank.ac.uk/) |
