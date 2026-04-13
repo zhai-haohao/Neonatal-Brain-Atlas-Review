@@ -12,10 +12,10 @@ This phase represents a paradigm shift from iterative voxel-wise averaging to **
 
 | Method | Year | Author | Highlights | Links |
 | :--- | :--- | :--- | :--- | :--- |
-| **VoxelMorph** | 2019 | Dalca et al. | **Unsupervised Registration.** The foundation for most DL-based atlas methods. Infers deformation fields in seconds. | [Paper (NeurIPS)](https://papers.nips.cc/paper/2019/hash/5b2239634e9089203a303681648a5864-Abstract.html) \| [GitHub](https://github.com/voxelmorph/voxelmorph) |
+| **VoxelMorph** | 2019 | Dalca et al. | **Unsupervised Registration.** The foundation for most DL-based atlas methods. Infers deformation fields in seconds. | [Paper (NeurIPS)](https://proceedings.neurips.cc/paper/2019/hash/bbcbff5c1f1ded46c25d28119a85c6c2-Abstract.html) \| [GitHub](https://github.com/voxelmorph/voxelmorph) |
 | **Atlas-GAN** | 2021 | Dey et al. | **Conditional GAN.** Uses adversarial loss to sharpen templates and allows conditioning on attributes (e.g., age). | [Paper (ICCV)](https://openaccess.thecvf.com/content/ICCV2021/html/Dey_Generative_Adversarial_Registration_for_Improved_Conditional_Deformable_Templates_ICCV_2021_paper.html) \| [GitHub](https://github.com/neel-dey/Atlas-GAN) |
 | **Diff-Def** | 2024 | Starck et al. | **Diffusion Models.** Generates deformation fields using latent diffusion for highly realistic conditional atlases. | [Paper (ArXiv)](https://arxiv.org/abs/2403.16776) |
-| **MultiMorph** | 2025 | Abulnaga et al. | **Recursive Registration.** On-demand atlas construction with population centrality constraints. | [Paper (CVPR)](https://arxiv.org/abs/2506.09668) \| [Project](https://github.com/vinkle/MultiMorph) |
+| **MultiMorph** | 2025 | Abulnaga et al. | **Recursive Registration.** On-demand atlas construction with population centrality constraints. | [Paper (CVPR)](https://openaccess.thecvf.com/content/CVPR2025/html/Abulnaga_MultiMorph_On-demand_Atlas_Construction_CVPR_2025_paper.html) \| [Project](https://github.com/vinkle/MultiMorph) |
 | **CINEMA** | 2025 | Dannecker et al. | **Implicit Neural Rep (INR).** Resolution-agnostic spatiotemporal atlas. The current SOTA for fetal/neonatal data. | [Paper (ArXiv)](https://arxiv.org/abs/2506.09668) \| [Code](https://github.com/m-dannecker/CINEMA) |
 
 
