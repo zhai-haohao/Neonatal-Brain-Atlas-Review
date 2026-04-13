@@ -14,7 +14,7 @@ This section covers the foundational evolution of neonatal atlas construction:
 
 | Category | Method | Year | Core Algorithm | Availability |
 | :--- | :--- | :--- | :--- | :--- |
-| **Static** | **Single-Subject** | 2007 | Rigid/Affine Registration | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S1053811998903950)  |
+| **Static** | **Single-Subject** | 2007 | Rigid/Affine Registration | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S1053811907004284)  |
 | **Iterative** | **ABSORB** | 2010 | Self-organized Registration & Bundling | [Paper](https://www.sciencedirect.com/science/article/abs/pii/S1053811910002806) |
 | **Iterative** | **ANTs (SyN)** | 2013 | Symmetric Diffeomorphic (SyN) | [GitHub](https://github.com/ANTsX/ANTs) |
 
